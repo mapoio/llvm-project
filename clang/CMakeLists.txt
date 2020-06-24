@@ -330,7 +330,7 @@ endif()
 
 set(CLANG_SYSTEMZ_DEFAULT_ARCH "z10" CACHE STRING "SystemZ Default Arch")
 
-set(CLANG_VENDOR ${PACKAGE_VENDOR} CACHE STRING
+set(CLANG_VENDOR "Obfuscator-LLVM" CACHE STRING
   "Vendor-specific text for showing with version information.")
 
 if( CLANG_VENDOR )
